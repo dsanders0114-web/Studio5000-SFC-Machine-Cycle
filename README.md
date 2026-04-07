@@ -43,35 +43,6 @@ the part, then returns to idle.
 
 ---
 
-## SFC Overview
-
-![SFC](images/sfc_overview.png)
-
----
-
-## Unclamp Step
-
-This step releases the clamp after drilling is complete.
-
-![Unclamp](images/unclamp_step.png)
-
----
-
-## Simulation Logic
-
-Actuator motion is simulated using timers.
-
-![Sim](images/sim_logic.png)
-
----
-
-## Fault Handling
-
-Timeout faults are generated if motion does not complete.
-
-![Faults](images/fault_logic.png)
-
----
 
 ## Technologies Used
 
